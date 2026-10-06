@@ -18,7 +18,7 @@ flowchart TD
   1@{ shape: circle, label: "Start" } -->
   2[/Input bilangan/] -->
   3[Bilangan % 2] -->
-  4{Apakah sisa bagi bilangan dengan 2 sama dengan 0?}
-  4 --> |Ya| 5[Genap] --> 7@{ shape: dbl-circ, label: "Stop" }
-  4 --> |Tidak| 6[Ganjil] --> 7@{ shape: dbl-circ, label: "Stop" }
+  4{Sisa bagi bilangan dengan 2 sama dengan 0?}
+  4 --> |Ya| 5[/Genap/] --> 7@{ shape: dbl-circ, label: "Stop" }
+  4 --> |Tidak| 6[/Ganjil/] --> 7@{ shape: dbl-circ, label: "Stop" }
 ```
