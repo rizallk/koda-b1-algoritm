@@ -25,7 +25,7 @@ flowchart TD
   start --> A --> B --> C --> hasil --> print --> final
 ```
 
-## Pseudo Code
+### Pseudo Code
 ``` pseudocode
 DECLARE A : INTEGER
 DECLARE B : INTEGER
@@ -40,3 +40,11 @@ HASIL <- A * B + C
 OUTPUT "Hasil dari A * B + C adalah : ", HASIL
 ```
 
+### Pseudo Code Function
+``` pseudocode
+FUNCTION Aritmatika(a : INTEGER, b : INTEGER, c : INTEGER) RETURNS INTEGER
+  RETURN a * b + c
+ENDFUNCTION
+
+OUTPUT "Hasilnya adalah :", Aritmatika(1, 1, 0)
+```
