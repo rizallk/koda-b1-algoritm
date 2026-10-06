@@ -22,3 +22,16 @@ flowchart TD
   4 --> |Ya| 5[/Genap/] --> 7@{ shape: dbl-circ, label: "Stop" }
   4 --> |Tidak| 6[/Ganjil/] --> 7@{ shape: dbl-circ, label: "Stop" }
 ```
+
+### PseudoCode
+```
+DECLARE angka : INTEGER
+
+OUTPUT "Masukkan angka:"
+INPUT angka
+
+IF angka % 2 = 0 THEN 
+  OUTPUT "Angka ", angka, " adalah bilagan Genap"
+ELSE
+  OUTPUT "Angka ", angka, " adalah bilagan Ganjil"
+```
