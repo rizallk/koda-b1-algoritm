@@ -37,4 +37,5 @@ IF is_genap THEN
   OUTPUT "Angka ", angka, " adalah bilagan Genap"
 ELSE
   OUTPUT "Angka ", angka, " adalah bilagan Ganjil"
+ENDIF
 ```
