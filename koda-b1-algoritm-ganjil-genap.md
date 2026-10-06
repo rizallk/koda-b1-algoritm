@@ -26,11 +26,14 @@ flowchart TD
 ### PseudoCode
 ```
 DECLARE angka : INTEGER
+DECLARE is_genap : BOOLEAN
 
 OUTPUT "Masukkan angka:"
 INPUT angka
 
-IF angka % 2 = 0 THEN 
+is_genap <- angka % 2 = 0
+
+IF is_genap THEN 
   OUTPUT "Angka ", angka, " adalah bilagan Genap"
 ELSE
   OUTPUT "Angka ", angka, " adalah bilagan Ganjil"
